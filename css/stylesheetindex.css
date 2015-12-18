@@ -1,5 +1,31 @@
-  body {
-    background-color :#41414F;
-    margin: 0;
-    padding: 0;
-  }
+body {
+  background-color :#4D505C;
+  margin: 0;
+  padding: 0;
+}
+
+
+.menu {
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  background-color: #9399B0;
+  border-bottom: 1px solid #797E91 ;
+}
+
+.menuconnex {
+  float: right;
+  text-align: right;
+  margin-top: 30px;
+  margin-right: 20px;
+  font-size: 16px ;
+  font-weight: bolder;
+}
+
+.menuinscri {
+  float: left;
+  margin-top: 30px;
+  margin-left: 20px;
+  font-size: 16px ;
+  font-weight: bolder;
+}

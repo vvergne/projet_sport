@@ -6,7 +6,8 @@ targetElement = document.getElementById(thingId) ;
 if (targetElement.style.display == "none")
 {
 targetElement.style.display = "" ;
-} else {
+}
+else {
 targetElement.style.display = "none" ;
 }
 }

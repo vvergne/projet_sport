@@ -71,12 +71,7 @@ img {
   margin-top: 80px;
 }
 
-.img1 p {
-  margin-left: 20%;
-  margin-top: -150px;
-  color: white;
-  position: absolute;
-}
+
 .menu {
   position:fixed;
   width: 100%;
@@ -112,26 +107,85 @@ img {
 }
 
 .img1 {
+  background: #fff url('img/fitness-mistakes.png') top center;
   float: left;
-  margin-top: 70px ;
+  height: 395px;
+  width: 600px;
+  margin-top: 75px ;
   margin-left: 5%;
 }
-
-.img_bureau{
-  float: left;
-  margin-top: 70px;
+.prog{
+  height: 100%;
+  width: 100%;
+  color: white;
+  display: none;
 }
 
+.img1:hover .prog {
+  display:block;
+}
+
+
+.img_bureau{
+  background: #fff url('img/bureau.png') top center ;
+  height: 395px;
+  width: 595px;
+  float: left;
+  margin-top: 75px;
+  background-repeat: no-repeat;
+}
+.note{
+  height: 100%;
+  width: 100%;
+  color: white;
+  display: none;
+}
+
+.img_bureau:hover .note {
+  display:block;
+  width: 300px;
+  height: 300px;
+}
+
+
+
 .img_salade {
+  background: #fff url('img/salade.png') top center;
+  width: 600px;
+  height: 400px;
   clear: both;
   float: left;
   margin-left: 5%;
-  margin-top: -11px;
+  background-repeat: no-repeat;
+
 }
 
+.salade {
+  width: 100%;
+  height: 100%;
+  display: none;
+  color: black;
+}
+
+.img_salade:hover .salade {
+  display: block;
+}
 .img_communication {
-  margin-top: -11px;
+  background: #fff url('img/communication.png') top center;
+  height: 400px ;
+  width: 595px;
   float: left;
+  margin-right: 15px;
+}
+.com {
+  height: 100%;
+  width: 100%;
+  display: none;
+  color: white;
+}
+
+.img_communication:hover .com {
+  display: block;
 }
 
 .img_fitness_girl {
@@ -146,19 +200,7 @@ img {
   float: left;
   height: 300px;
   width: 600px;
-  margin-top: 30px;
+  margin-top: 35px;
   margin-right : 0px ;
-}
-
-.fdp {
-position: absolute;
-  height: 300px;
-  width: 600px;
-  margin-top: -300px;
-  border: 1px solid white ;
-  color: white;
-}
-
-.fdp:hover{
-  visibility: hidden;
+  background: #fff url('img/fitnesshf.png') top center
 }

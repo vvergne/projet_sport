@@ -10,7 +10,34 @@
           <!--Div Menu Fixed  -->
           <div class="menu">
             <p class="menuinscri"> Déja Inscrit </p>
-            <p class="menuconnex"> Connexion </p>
+            <label for="case">Inscription</label>
+            <input type="checkbox" id="case"/>
+            <div id="surcouche">
+                <div id="msgbox">
+                    <label for="case" class="labelButon">Fermer</label>
+                    <h3>Inscription</h3>
+                    <div id='contain'>
+                    <div class="nom">
+                      <input id="nom" type="text" onchange="yourName()" placeholder="Nom"></input>
+                    </div>
+                    <div class="prenom">
+                      <input id="prenom" type="text" onchange="yourFirstName()" placeholder="Prénom"></input>
+                    </div>
+                    <div class="age">
+                      <input id="age" type="text" onchange="yourAge()" maxlength="2" placeholder="Age"></input>
+                    </div>
+                    <div class="mail">
+                      <input id="mail" type="text" onchange="yourMail()" placeholder="Adresse E-mail"></input>
+                    </div>
+                    <div class="taille">
+                      <input id="taille" type="text" onchange="yourHeight()" maxlength="3" placeholder="Taille"></input>
+                    </div>
+                    <div class="poids">
+                      <input id="poids" type="text" onchange="yourWeight()" maxlength="3" placeholder="Poids"></input>
+                    </div>
+                  </div>
+                </div>
+            </div>
           </div>
           <!--Div presentation site  -->
           <div>

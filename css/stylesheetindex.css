@@ -50,14 +50,20 @@ h4 {
   text-align: center;
   color: white;
 }
+h5 {
+  color: white;
+  font-size: 22px;
 
+}
 img {
   padding-top: 5px;
 }
-
- .presentation {
-  display: block;
-  margin-top:100px;
+.presentation {
+  height: 50px;
+  width: auto;
+  float: left;
+  margin-left: 10%;
+  margin-top: 80px;
 }
 .menu {
   position: absolute, fixed;
@@ -106,8 +112,8 @@ img {
 .img_salade {
   clear: both;
   float: left;
-margin-left: 5%;
-margin-top: -11px;
+  margin-left: 5%;
+  margin-top: -11px;
 }
 
 .img_communication {

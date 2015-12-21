@@ -5,6 +5,7 @@
       <title>Sport</title>
       <link rel="icon" type="img/png" href=""/>
       <link rel="stylesheet"  href="css/stylesheetindex.css"/>
+       <script src="txtimg.js"></script>
       </head>
         <body>
           <!--Div Menu Fixed  -->
@@ -15,7 +16,7 @@
             <div id="surcouche">
                 <div id="msgbox">
                     <label for="case" class="labelButon">Fermer</label>
-                    <h3>Inscription</h3>
+                    <h6>Inscription</h6>
                     <div id='contain'>
                     <div class="nom">
                       <input id="nom" type="text" onchange="yourName()" placeholder="Nom"></input>
@@ -40,10 +41,11 @@
             </div>
           </div>
           <!--Div presentation site  -->
-          <h3> Projet Dadan et Victor</h3>
+          <h3> Projet Jordan et Victor</h3>
           <!--Deux Divs images  -->
-          <div class="img1">
+          <div id="prg" class="img1">
             <img src="css/img/fitness-mistakes.png">
+            <p> blbobloblbo </p>
           </div>
           <div class="img_bureau">
             <img src="css/img/bureau.png">
@@ -55,6 +57,11 @@
             <img src="css/img/communication.png">
           </div>
 
+          <a href="" onmouseover="javascript:visibilite('id_div_1');
+          return false;" onmouseout="javascript:visibilite('id_div_1'); return false;">lien</a>
+          <div id="id_div_1" style="display:none;">
+          Texte à masquer, afficher
+          </div>
           <!--Div presentation prog  -->
           <div class="presentation">
             <h5>Presentation du Projet , pourquoi lui et pas un
@@ -67,6 +74,7 @@
           <div class="fitnesshf">
             <img src="css/img/fitnesshf.png">
           </div>
+
 
 
 

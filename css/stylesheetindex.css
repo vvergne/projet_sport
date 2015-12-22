@@ -11,11 +11,16 @@ display : none;
 #case:checked + #surcouche{
 display: block;
 }
-.menuinscri {
-  padding-left: 1000px;
+#connexion {
+  float: right;
+  margin-right: 20px;
+  margin-top: 34px;
 }
 label{
 cursor: pointer;
+float: right;
+margin-top: 50px;
+margin-right: 10px;
 }
 .labelButon{
 padding: 5px 10px;
